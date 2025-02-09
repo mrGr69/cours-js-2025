@@ -1,0 +1,93 @@
+@import url(reset.css); 
+body{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.wrapper {
+    display: flex;
+}
+.header {
+    max-width: 300px;
+    /* margin-left: 50px; */
+    flex-direction: row;
+    background-color: antiquewhite;
+
+}
+.list {
+    padding: 100px 50px;
+}
+.item {
+    border-radius: 5px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.item:hover{
+    background-color: burlywood;
+    transition: all 0.3s ease;
+}
+.item:active{
+    background-color:  rgb(209, 145, 62);
+}
+
+/* headerEnd */
+.container {
+    /* max-width: 400px; */
+    margin: 0 auto;
+    align-self: center;
+    /* margin-left: 500px; */
+    border: 5px solid black;
+    background-color: aliceblue;
+    padding: 15px;
+}
+.container__lable{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container__summ {
+    font-size: 30px;
+    
+}
+[class^="container__s-"]{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+[class$="__product-amount"]{
+    margin-right: 50px;
+}
+.container__s-first {
+}
+.first {
+}
+.first__product-amount {
+}
+.first__total {
+}
+.container__s-second {
+}
+.second {
+}
+.second__product-amount {
+}
+.second__total {
+}
+.container__s-third {
+}
+.third {
+}
+.third__product-amount {
+}
+.third__total {
+}
+.container__total {
+    font-size: 30px;
+
+}
+.main {
+}
+.footer {
+}
