@@ -1,0 +1,32 @@
+@import url(reset.css);
+body{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.wrapper {
+    display: flex;
+}
+.header {
+    max-width: 300px;
+    /* margin-left: 50px; */
+    flex-direction: row;
+    background-color: antiquewhite;
+
+}
+.list {
+    padding: 100px 50px;
+}
+.item {
+    border-radius: 5px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.item:hover{
+    background-color: burlywood;
+    transition: all 0.3s ease;
+}
+.item:active{
+    background-color:  rgb(209, 145, 62);
+}
