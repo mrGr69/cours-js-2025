@@ -7,7 +7,7 @@ const Lotoreya = 4
 let Remainder = MonayHave - PriceProduct
 if (MonayHave < PriceProduct)
     alert('Недостатньо коштів')
-else if (Lotoreya <= Remainder)
+else if (Lotoreya <= (MonayHave - PriceProduct))
     {
         alert('вам вистачає ще на лоторею)')
     }
