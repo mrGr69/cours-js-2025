@@ -1,5 +1,5 @@
 // Випадковим чином генерується число від 1 до 5. Спробуйте вгадати число за 2 спроби.
-const MaxNumber = 5
+const MaxNumber = 5 
 const MinNumber = 1
 let randomNumber = Math.floor(Math.random() * (MaxNumber - MinNumber + 1)) + MinNumber
 console.log(`${randomNumber}`)
