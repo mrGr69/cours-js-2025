@@ -1,0 +1,100 @@
+@import url(reset.css);
+body{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.wrapper {
+    display: flex;
+}
+.header {
+    max-width: 300px;
+    /* margin-left: 50px; */
+    flex-direction: row;
+    background-color: antiquewhite;
+
+}
+.list {
+    padding: 100px 50px;
+}
+.item {
+    border-radius: 5px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.item:hover{
+    background-color: burlywood;
+    transition: all 0.3s ease;
+}
+.item:active{
+    background-color:  rgb(209, 145, 62);
+}
+h1{
+    font-size: 30px;
+    display: block;
+}
+/* --- */
+/* task1 */
+.container-js{
+    padding: 100px 20px;
+    align-self: flex-start;
+}
+.container-js h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+/* task3 */
+
+.list-js3{
+    padding: 100px 20px;
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+}
+.list-js3__item{
+    font-size: 30px;
+}
+/* tsak4 */
+.list-task4{
+    /* margin: 100px 20px; */
+    display: flex;
+    /* padding: 1px; */
+}
+.list-task4__item{
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: floralwhite;
+}
+/* task6 */
+.list-task5{
+    margin-right: 30px;
+}
+.container-js {
+    
+}
+.list-task5__sublist{
+    display: flex;
+}
+.list-task5__subitem{
+    padding: 5px;
+}
+.container-js--flex{
+    display: flex;
+}
+/* task12 */
+.list-task12{
+    display: flex;
+}
+.list-task12__item img{
+    width: 200px;
+    height: 100px;
+    object-fit:cover
+}
+.prize{
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    font-weight: 900;
+}

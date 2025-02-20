@@ -30,3 +30,7 @@ body{
 .item:active{
     background-color:  rgb(209, 145, 62);
 }
+h1{
+    font-size: 30px;
+    display: block;
+}
