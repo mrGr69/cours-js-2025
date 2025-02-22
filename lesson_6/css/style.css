@@ -1,6 +1,5 @@
 @import url(reset.css);
-
-@import url(reset.css);
+@import url(lesson.css);
 body{
     display: flex;
     flex-direction: row-reverse;
