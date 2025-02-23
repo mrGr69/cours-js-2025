@@ -1,5 +1,5 @@
 // Знайти суму цифр числа, що знаходяться між першою цифрою 7 і останньою цифрою 7 (у числі є всього дві цифри 7, наприклад: 2679328712)
-if (confirm(start)) {
+if (confirm('start')) {
     let summ   =0
     const number = String(2679328712)
     const first7 = number.indexOf('7')
@@ -11,6 +11,5 @@ if (confirm(start)) {
         
     }    
 }
-// на переверку
 
 
