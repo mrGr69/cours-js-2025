@@ -13,5 +13,4 @@ if (confirm('start')) {
     let line = parseInt(prompt('кількість колонок'))
     let column = parseInt(prompt('кількість рядків'))
     getTable(column, line)
-
 }
