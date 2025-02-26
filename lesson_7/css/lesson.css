@@ -1,0 +1,24 @@
+.container-js .listls7{
+    /* border: 5px double red; */
+    
+}
+.container-js .listls7 .listls7__item{
+    border: 1px solid black;
+    padding: 20px;
+
+}
+.container-js--flex{
+    display: flex;
+    align-items: flex-start;
+}
+h2{
+    font-size: 40px;
+}
+.container__ls7-task8 a{
+    text-align: center;
+    width: 100%;
+    /* margin: 0 auto; */
+}
+.container__ls7-task8{
+    padding: 50px;
+}
